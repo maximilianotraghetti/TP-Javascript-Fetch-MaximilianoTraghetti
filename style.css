@@ -1,0 +1,32 @@
+img {
+    width: 150px;
+    grid-column: 2 / 2;
+}
+.Nav {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr); ;
+    background-color:rgb(226, 243, 101);
+}
+.btn {
+    margin-bottom: 10px;   
+}
+.boton {
+    margin-bottom: 0px;
+}
+.logo {
+    width: 300px;
+}
+#pokemonSprite {
+    width: 300px;
+}
+.pokemonImg {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+#MostrarPokemon {
+    grid-column: 2 / 2;
+}
