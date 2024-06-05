@@ -20,13 +20,17 @@ img {
     width: 300px;
 }
 #pokemonSprite {
-    width: 300px;
+    width: 500px;
 }
 .pokemonImg {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    background-color:rgb(226, 243, 101) ;
 }
 #MostrarPokemon {
     grid-column: 2 / 2;
+}
+
+body {
+    background-color: rgb(226, 243, 101);
 }
